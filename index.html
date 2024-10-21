@@ -1,100 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CV of MD. Golam Mostofa</title>
+    <meta name="description" content="Portfolio of Md. Golam Mostofa, Lecturer of ICT">
+    <title>Md. Golam Mostofa - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
-<body style="background-color:#eeeeee; font-family: sans-serif;">	
-    <div style="height: 300px; width:auto; padding: 10px; align-content: left">
-        	<div style="height: 150px; width: 130px;"><img src="my pic.jpg" height="145" width="120"></div>
-            <div><h2>MD. Golam Mostofa</h2>
-            <p>Lecturer of ICT<br>Rajshahi Cantonment Board School and College</p></div>
-        </div>        
-        <section class="contact-info">
-            <h2>Contact Information</h2>
-            <ul><li>
-            	<address>
-            	169/J, Kadirgonj, 
-            	Boalia, Rajshahi-6000 
-            </address></li>
-                <li>Email: <a href="mailto:mostofa.tee45@gmail.com">mostofa.tee45@gmail.com</a></li>
-                <li>Phone: +8801737504031</li>
-            </ul>
-        </section>
 
-        <section class="career-objective">
-            <h2>Career Objective</h2>
-            <p>
-                I am, a symbol of energetic, proactive and hardworking personnel, like to serve in a responsible challenging position at well-structured organization and successfully apply acquired managerial, analytical, organizational and interpersonal skills to enhance organizational efficiencies with respect and values of diversities having desire to break the resist in innovative ways with winning spirits, ethical standards and moral principles. 
-            </p>
-        </section>
+<body>
 
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>B.Sc. in Telecommunication and Electronic Engineering</strong><br>Hajee Mohammad Danesh Science and Technology University  | Year: 2013</li>
-             
-            </ul>
-        </section>
-
-        <section class="professional-experience">
-            <h3>Professional Experience</h3>
-            <div class="experience-item">
-                <h3>Lecturer of ICT</h3>
-                <p><strong>Rajshahi Cantonment Board School and College</strong> | Year: 2018 – Present</p>
-                <ul>
-                    <li>Guide the department and student </li>
-                    <li>Develop and update course materials, assignments, and assessments.</li>
-                    <li>Facilitate practical sessions on ICT tools and technologies.</li>
-                    <li>Performing ICT Multimedia Class, providing exam question and solution</li>
-                    <li>Organizing seminar, extra curriculum activities</li>
-                    <li>Performing duties deployed by authoritie</li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Md. Golam Mostofa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
-            <div class="experience-item">
-                <h3>Former Lecturer of ICT</h3>
-                <p><strong>DR. Mahbubur Rahman Molla College</strong> | Year: 2017 – 2018</p>
-                <p><strong>Mollakandi Lalmia Pilot High School and College</strong> | Year: 2014 – 2016</p>
-                </ul>
-            </div>
-        </section>
+        </div>
+    </nav>
 
-        <section class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Programming Languages: C, C++, C#, JAVA and PHP</li>
-                <li>Database Management: SQL, MySQL</li>
-                <li>Lesson Planning and Curriculum Development</li>
-                <li>Problem Solving and Critical Thinking</li>
-            </ul>
-        </section>
-        <section class="references">
-            <h2>References</h2>
-            <ul>
-                <li>Professor Dr. MD. Mahabub Hossain 
-Department of TEE,
-Hajee Mohammad Danesh Science and Technology University, Dinajpur, Bangladesh.
-Contact Number: +880-1720557161
-Email: mahmbub@hstu.ac.bd
-</li>
-                <li>Md. Mehedi Hasan
-Professor,
-Department of TEE,
-Hajee Mohammad Danesh Science and Technology University, Dinajpur, Bangladesh.
-Contact Number: +880-171-6239606
-Email: mehedi@hstu.ac.bd
-</li>
-            </ul>
-        </section>
+    <!-- Hero Section -->
+    <section id="hero" class="bg-light text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Main Hero Content -->
+                    <h1 class="display-4">Md. Golam Mostofa</h1>
+                    <p class="lead">Lecturer of ICT | 10+ Years of Experience | Technology Enthusiast</p>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                </div>
 
-        <footer>
-            <p>&copy; 2024 MD. Golam Mostofa</p>
-        </footer>
+                <!-- Weather Section -->
+                <div class="col-md-4">
+                    <div class="card weather-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Current Weather</h5>
+                            <div id="weather-content">
+                                <div class="container">
+        <h1>Live Weather Forecast</h1>
+        <div class="weather-form">
+            <input type="text" id="city" placeholder="Enter city name" />
+            <button onclick="getWeatherForecast()">Get Forecast</button>
+        </div>
+        <div id="weather-data" class="weather-data"></div>
     </div>
-</body>
-</html>
+    <script src="script.js"></script>
+                            </div>
+                            <small class="text-muted">Updated just now</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="profile.jpg" alt="Md. Golam Mostofa" class="img-fluid rounded-circle mb-3">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>
+                        I am Md. Golam Mostofa, a passionate Lecturer of ICT with over a decade of experience in 
+                        education. I have worked in Rajshahi Cantonment Board School and College from 2018, and also have served
+                        in DR. Mahbubur Rahman Molla College for 1+ years. My mission is to inspire students to embrace the 
+                        power and future of IT and empower them to have IT skills to face in real-world scenarios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Educational Background</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Master of Science in Computer Science(Continue..)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Rajshahi University</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Bachelor of Science in Telecommunication and Electronic Engineering(TEE)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Hajee Mohammad Danesh Science and Technology University.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Experience</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Rajshahi Cantonment Board School and College</h5>
+                            <h5 class="card-subtitle mb-2 text-muted">Lecturer of ICT (From 2018 to Present)</h6>
+                            <p class="card-text">Teaching ICT to higher secondary students with 
+                                modern learning materials, labworks and train up the students integrating technology with traditional education. Also perform other duties from  higher authority.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">DR. Mahbubur Rahman Molla College</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Lecturer of ICT (Former)</h6>
+                            <p class="card-text">Teaching ICT to higher secondary students, delivering lessons and practical
+                                sessions, helping students in computer science and IT-based subjects, instruct for future career. Also perform other duties from  higher authority.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h4>Programming Languages</h4>
+                    <p>Python, Java, C++</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Web Development</h4>
+                    <p>HTML, CSS, JavaScript,php, JQuery, Bootstrap</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>Database Management</h4>
+                    <p>SQL, MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Educational Management System</h5>
+                            <p class="card-text">Developed an online platform to manage student information, grades,
+                                and attendance for educational institutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Learning Platform</h5>
+                            <p class="card-text">Created an interactive e-learning platform for students to access 
+                                online classes and learning resources.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">MICROCONTROLLER BASED VARIABLE ULTRASOUND GENERATOR</h5>
+                            <p class="card-text">An Electronic Project to generate variable ultrasound and imply it to repeal insect and its impact in fields.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>© 2024 Md. Golam Mostofa - All Rights Reserved</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
