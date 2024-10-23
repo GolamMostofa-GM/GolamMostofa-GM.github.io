@@ -5,7 +5,7 @@ body {
 #hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
     color: white;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
